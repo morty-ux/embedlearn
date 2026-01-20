@@ -1,10 +1,11 @@
 #include <Arduino.h>
 #include <math.h>
-
+//test git
 // 呼吸灯（PWM 渐变），适用于 ESP8266 开发板
 // 注意：大多数开发板的板载 LED 为低电平点亮（ACTIVE LOW），因此输出取反
 
 const int ledPin = LED_BUILTIN;
+
 const int pwmRange = 1023;
 const unsigned long period = 3000UL; // 一个完整呼吸周期（毫秒）
 
